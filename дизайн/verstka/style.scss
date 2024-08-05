@@ -1,0 +1,164 @@
+*{
+  margin:0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Inter;
+}
+body{
+  header{
+    background: #EFEFEF;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .logo{
+     img{
+       width: 90px;
+       height: 50px;
+     }
+    }
+    nav{
+      display: flex;
+      font-size: 14px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      gap: 30px;
+    }
+    .via{
+      display: flex;
+      align-items: center;
+      img{
+        height: 20px;
+
+      }
+
+    }
+
+  }
+  main{
+    padding-inline: 30px;
+    .sort{
+      font-size: 10px;
+      padding-top: 10px;
+      padding-bottom:10px ;
+      display: flex;
+      justify-content: space-between;
+      .filter{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        img{
+          height: 15px;
+        }
+      }
+      .sorting{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        img{
+          width: 20px;
+        }
+        .arrow{
+          width: 10px;
+          height: 10px;
+        }
+      }
+
+    }
+    .catalog{
+      .row{
+        display: flex;
+        gap: 53px;
+        padding-bottom:50px ;
+        .item{
+          width: 200px;
+          .card{
+            position: relative;
+            .mainCard{
+              width: 200px;
+            }
+            .like-button{
+              position: absolute;
+              top: 10px;
+              right: 10px;
+              img{
+                width: 15px;
+                height: 15px;
+              }
+            }
+            .plus-button{
+              position: absolute;
+              bottom:10px;
+              right: 10px;
+              img{
+                width: 15px;
+                height: 15px;
+              }
+            }
+
+          }
+          .name{
+            font-weight: 700;
+          }
+          .fullName{
+            font-weight: 300;
+            padding-bottom: 5px;
+          }
+          .cost{
+            font-weight: 700;
+          }
+
+        }
+      }
+    }
+    .pagination{
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding-bottom: 30px;
+      font-weight: 1000;
+      font-size: 32px;
+      color: rgba(0,0,0,0.4);
+      :nth-child(1){
+        color: black;
+      }
+    }
+
+
+
+  }
+
+
+  footer{
+    display: flex;
+    padding-inline: 30px;
+    justify-content: space-between;
+    background: #1D1D1B;
+    color:#EFEFEF;
+    font-size: 12px;
+    .col1,.col2,.col3,.col4{
+      padding-top: 35px;
+      padding-bottom: 10px;
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+      font-weight: 400;
+      .soc{
+        display: flex;
+        gap: 10px;
+        img{
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+
+  }
+
+
+
+
+}

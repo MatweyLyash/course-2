@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <persons>
+        <person fio="Petrov" type="1000000"/>
+        <person fio="Filin" type="10"/>
+        </persons>

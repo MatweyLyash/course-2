@@ -1,0 +1,33 @@
+﻿<Page x:Class="dapperPath.View.ShoesPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:dapperPath.View"
+      xmlns:vm="clr-namespace:dapperPath.ViewModel"
+      xmlns:usercontrols="clr-namespace:dapperPath.CustomControls"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ShoesPage"
+      >
+    
+    
+
+
+    <Border  Style="{DynamicResource MainContent}">
+        <ListBox Name="LBoxStuff" ItemsSource="{Binding Shoes}">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal" MaxWidth="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType={x:Type ScrollViewer}}}"/>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <usercontrols:ShoesCard DataContext="{Binding}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        
+    </Border>
+
+</Page>

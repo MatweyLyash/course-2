@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Inter;
+}
+
+body header {
+  background: #EFEFEF;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body header .logo img {
+  width: 90px;
+  height: 50px;
+}
+body header nav {
+  display: flex;
+  font-size: 14px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+body header .via {
+  display: flex;
+  align-items: center;
+}
+body header .via img {
+  height: 20px;
+}
+body main {
+  padding-inline: 30px;
+}
+body main .sort {
+  font-size: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+body main .sort .filter {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+body main .sort .filter img {
+  height: 15px;
+}
+body main .sort .sorting {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body main .sort .sorting img {
+  width: 20px;
+}
+body main .sort .sorting .arrow {
+  width: 10px;
+  height: 10px;
+}
+body main .catalog .row {
+  display: flex;
+  gap: 53px;
+  padding-bottom: 50px;
+}
+body main .catalog .row .item {
+  width: 200px;
+}
+body main .catalog .row .item .card {
+  position: relative;
+}
+body main .catalog .row .item .card .mainCard {
+  width: 200px;
+}
+body main .catalog .row .item .card .like-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+body main .catalog .row .item .card .like-button img {
+  width: 15px;
+  height: 15px;
+}
+body main .catalog .row .item .card .plus-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+body main .catalog .row .item .card .plus-button img {
+  width: 15px;
+  height: 15px;
+}
+body main .catalog .row .item .name {
+  font-weight: 700;
+}
+body main .catalog .row .item .fullName {
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+body main .catalog .row .item .cost {
+  font-weight: 700;
+}
+body main .pagination {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 30px;
+  font-weight: 1000;
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.4);
+}
+body main .pagination :nth-child(1) {
+  color: black;
+}
+body footer {
+  display: flex;
+  padding-inline: 30px;
+  justify-content: space-between;
+  background: #1D1D1B;
+  color: #EFEFEF;
+  font-size: 12px;
+}
+body footer .col1, body footer .col2, body footer .col3, body footer .col4 {
+  padding-top: 35px;
+  padding-bottom: 10px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  font-weight: 400;
+}
+body footer .col1 .soc, body footer .col2 .soc, body footer .col3 .soc, body footer .col4 .soc {
+  display: flex;
+  gap: 10px;
+}
+body footer .col1 .soc img, body footer .col2 .soc img, body footer .col3 .soc img, body footer .col4 .soc img {
+  width: 20px;
+  height: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

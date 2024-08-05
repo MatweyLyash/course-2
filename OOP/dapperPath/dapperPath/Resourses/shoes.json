@@ -1,0 +1,35 @@
+[
+  {
+    "ProductID": 0,
+    "Title": "Nike Air Force",
+    "Brand": "Nike",
+    "Category": "Кроссовки",
+    "Price": 300.00,
+    "AvailableSizes": "[40, 41, 42, 43, 44, 45]",
+    "Description": "Кроссы просто огонь",
+    "Image": "D:\\Desktop\\ekz\\wpf_za_7dney\\db_image\\force.png",
+    "Sex": "M"
+  },
+  {
+    "ProductID": 0,
+    "Title": "Adidas Ozweego",
+    "Brand": "Adidas",
+    "Category": "Кроссовки",
+    "Price": 400.00,
+    "AvailableSizes": "[40, 41, 42, 43, 44, 45]",
+    "Description": "Кроссы просто огонь",
+    "Image": "D:\\Desktop\\ekz\\wpf_za_7dney\\db_image\\ozweego.webp",
+    "Sex": "M"
+  },
+  {
+    "ProductID": 0,
+    "Title": "Puma Cassia Via",
+    "Brand": "Puma",
+    "Category": "Кроссовки",
+    "Price": 390.00,
+    "AvailableSizes": "[40, 41, 42, 43, 44, 45]",
+    "Description": "Кроссы просто огонь",
+    "Image": "D:\\Desktop\\ekz\\wpf_za_7dney\\db_image\\cassia.webp",
+    "Sex": "W"
+  }
+]
